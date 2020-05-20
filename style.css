@@ -56,6 +56,7 @@ a {
 #red a {
     color: #6d4354;
     text-decoration: none;
+    background-color: rgba(252, 239, 234, 0.7);
 }
 
 div#content {
@@ -84,4 +85,14 @@ div#content {
     min-height: 900px;
     min-width: 250px;
     float: right;
+}
+
+summary {
+    background-color:rgba(252, 239, 234, 0.7);
+    display: block;  
+}
+
+#sidebar a {
+    margin-bottom: 10px;
+    background-color:rgba(252, 239, 234, 0.7);
 }
