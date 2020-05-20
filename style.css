@@ -1,0 +1,16 @@
+body {
+    background-color: #8F8DD4;
+    background-image: url(Images/pixelclouds.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: 300px 300px;
+    margin-top: 30px;
+    margin-bottom: 1000px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    position: fixed;
+}
