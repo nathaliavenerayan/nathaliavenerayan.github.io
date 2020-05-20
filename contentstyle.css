@@ -2,26 +2,12 @@
 
 body {
     background-color: #8F8DD4;
-    background-image: url(Images/pixelclouds.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left bottom;
-    background-size: 20%;
     margin-top: 30px;
-    margin-bottom: 1000px;
+    margin-bottom: 30px;
     text-align: center;
     color: #15304d;
     font-family: "Playfair Display", serif;
     letter-spacing: 2px;
-}
-
-.header-cont {width:100%; position:fixed; top:0px;}
-
-.header {
-    height: 150px;
-    width: 100%;
-    margin: 0px auto;
-    background-color: #8F8DD4;
 }
 
 h1 {
@@ -33,22 +19,6 @@ h3 {color: #f6ccd1;}
 h4 {color: #feb9b4;}
 h5 {color: #dda9c6;}
 h6 {color: #ef6178;}
-
-nav {
-    position: fixed;
-    width: 20%;
-    color: #6d4354;
-    font-size: 3vw;
-    font-style: italic;
-    width: 20%;
-    height:100%;
-}
-
-.mainstuff {
-    margin: 160px auto;
-    height: 100%;
-    background-color: black;
-}
 
 a {
     text-decoration: none;
@@ -62,8 +32,6 @@ div#content {
     background-color: rgba(252, 239, 234, 0.3);
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 20%;
-    margin-right: 25px;
     padding: 10px;
 }
 
@@ -76,12 +44,4 @@ div#content {
     height: 20px;
     width: 20px;
     opacity: 0.7;
-}
-
-.frame {
-    width: 80%;
-    height:auto;
-    min-height: 900px;
-    min-width: 250px;
-    float: right;
 }
