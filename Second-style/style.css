@@ -2,11 +2,10 @@
 
 body {
     background-color: #8F8DD4;
-    background-image: url(Images/pixelclouds.png);
+    background-image: url(Images/pixelcity.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: left bottom;
-    background-size: 20%;
+    background-size: cover;
     margin-top: 30px;
     margin-bottom: 1000px;
     text-align: center;
@@ -18,10 +17,10 @@ body {
 .header-cont {width:100%; position:fixed; top:0px;}
 
 .header {
-    height: 150px;
+    height: 125px;
     width: 100%;
     margin: 0px auto;
-    background-color: #8F8DD4;
+    background-color: rgb(204, 149, 189);
 }
 
 h1 {
@@ -42,6 +41,7 @@ nav {
     font-style: italic;
     width: 20%;
     height:100%;
+    text-align: center;
 }
 
 .mainstuff {
